@@ -1,0 +1,54 @@
+ body {
+  background-image: linear-gradient(to right, #949795, #ffffff);
+  height: 80vh;
+}
+
+table {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="button"] {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  margin-right: -2px;
+  margin-top: -2px;
+  border: none;
+  background-color: rgb(58, 59, 58);
+  color: white;
+}
+
+input[type="text"] {
+  font-family: "Nerko One", cursive;
+  margin-bottom: inherit;
+  width: 146px;
+  height: 45px;
+  margin-right: -8px;
+  margin-top: -2px;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#res {
+  background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+} 
+
+
+
+
+
+
+
+
+
+
+
+

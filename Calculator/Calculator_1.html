@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" href="/Calculator_1.css">
+
+
+       <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>Calculator Challenge</h1>
+
+  <table>
+    <tr>
+      <td><input type="button" value="c" onclick="clearInput()" /></td>
+      <td colspan="3"><input type="text" id="Calculator" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="+" onclick="operator('+')" /></td>
+      <td>
+        <input class="num_0_9" type="button" value="1" onclick="numberToInput('1')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="2" onclick="numberToInput('2')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="3" onclick="numberToInput('3')" />
+      </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="-" onclick="operator('-')" /></td>
+      <td>
+        <input class="num_0_9" type="button" value="4" onclick="numberToInput('4')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="5" onclick="numberToInput('5')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="6" onclick="numberToInput('6')" />
+      </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="*" onclick="operator('*')" /></td>
+      <td>
+        <input class="num_0_9" type="button" value="7" onclick="numberToInput('7')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="8" onclick="numberToInput('8')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="9" onclick="numberToInput('9')" />
+      </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="/" onclick="operator('/')" /></td>
+      <td>
+        <input class="num_0_9" type="button" value="." onclick="numberToInput('.')" />
+      </td>
+      <td>
+        <input class="num_0_9" type="button" value="0" onclick="numberToInput('0')" />
+      </td>
+      <td><input type="button" value="=" id="res" onclick="result()" /></td>
+    </tr>
+  </table> 
+
+  <script src="/Calculator_1.js"></script>
+ 
+</body>
+
+</html>
